@@ -10,4 +10,32 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  padding: 20px;
+  
+}
+
+/* for header */
+
+header {
+  border: solid 2px #fff;
+  background-image: url(../img/code-screen-backgrounds.jpg);
+  padding: 30px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  color: ;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: lightgray;
 }
