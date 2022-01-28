@@ -18,7 +18,7 @@ body {
 
 header {
   border: solid 2px #fff;
-  background-image: url(../img/code-screen-backgrounds.jpg);
+  background-image: src("../img/code-screen-backgrounds.jpg");
   padding: 30px;
 }
 
