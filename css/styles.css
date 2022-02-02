@@ -54,13 +54,15 @@ body {
   margin: 0 0 20px 0;
 }
 
-.card h2 {
+.card h2,
+article h1 {
   font-family: montserrat, sans-serif;
   font-size: 16px;
   margin: 0 0 20px;
 }
 
-.card p {
+.card p,
+article p {
   font-family: open-sans, sans-serif;
 }
 
