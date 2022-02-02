@@ -47,6 +47,10 @@ body {
 
 /* for main */
 
+main {
+  width: 100%;
+}
+
 .card {
   background: #2afca6;
   color: #0b583e;
@@ -82,4 +86,20 @@ article {
 
 .post-author {
   color: #2afca6;
+}
+
+figure {
+  width: 100%;
+  margin: 0 0 35px 0;
+  font-family: open-sans, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  padding: 6px 10px;
 }
