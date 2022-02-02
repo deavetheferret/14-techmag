@@ -70,3 +70,16 @@ article {
   background-color: #fff;
   padding: 30px;
 }
+
+.post-info {
+  color: #c6c6c5;
+  font-size: 12px;
+}
+
+.post-date {
+  color: #000;
+}
+
+.post-author {
+  color: #2afca6;
+}
