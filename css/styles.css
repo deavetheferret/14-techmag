@@ -52,3 +52,11 @@ body {
   color: #0b583e;
   padding: 30px;
 }
+
+.card h2 {
+  font-family: montserrat, sans-serif;
+}
+
+.card p {
+  font-family: open-sans, sans-serif;
+}
