@@ -21,13 +21,15 @@ header {
   border: solid 2px #fff;
   background-image: url("../img/code-screen-background.jpg");
   box-shadow: inset 0 0 50px 100px #000000b3;
-  padding: 30px;
+  padding: 23px 15px 35px 30px;
 }
 
 h1 {
   font-family: montserrat, sans-serif;
   color: #fff;
   font-weight: 800;
+  margin: 27px 0 19px;
+  font-size: 26px;
 }
 
 header span {
