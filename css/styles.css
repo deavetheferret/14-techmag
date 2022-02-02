@@ -1,5 +1,11 @@
 /*
-  font-family: 'Montserrat', sans-serif; 100it/800
+  font-family: montserrat, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+
   font-family: 'Open Sans', sans-serif; 400/400it/700/700it
 */
 
@@ -19,21 +25,20 @@ body {
 header {
   border: solid 2px #fff;
   background-image: url("../img/code-screen-background.jpg");
-  filter: brightness(0.3);
   padding: 30px;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 header span {
   font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
+  font-weight: 100;
   font-style: italic;
-  color: mediumaquamarine;
+  color: #2afca6;
 }
 
 p {
