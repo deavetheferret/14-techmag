@@ -19,7 +19,7 @@ body {
 header {
   border: solid 2px #fff;
   background-image: url("../img/code-screen-background.jpg");
-  filter: brightness(0.3);
+  box-shadow: inset 0 0 50px 100px #000000b3;
   padding: 30px;
 }
 
@@ -38,5 +38,5 @@ header span {
 
 p {
   font-family: 'Open Sans', sans-serif;
-  color: lightgray;
+  color: #c6c6c5;
 }
