@@ -17,7 +17,7 @@ body {
 
 /* for header */
 
-header {
+.site-header {
   border: solid 2px #fff;
   background-image: url("../img/code-screen-background.jpg");
   box-shadow: inset 0 0 50px 100px #000000b3;
@@ -25,7 +25,7 @@ header {
   margin: 0 0 20px 0;
 }
 
-h1 {
+.site-header h1 {
   font-family: montserrat, sans-serif;
   color: #fff;
   font-weight: 800;
@@ -33,14 +33,21 @@ h1 {
   font-size: 26px;
 }
 
-header span {
+.site-header span {
   font-family: montserrat, sans-serif;
   font-weight: 100;
   font-style: italic;
   color: #2afca6;
 }
 
-p {
+.site-header p {
   font-family: open-sans, sans-serif;
   color: #c6c6c5;
+}
+
+/* for main */
+
+.card {
+  background: #2afca6;
+  color: #0b583e;
 }
