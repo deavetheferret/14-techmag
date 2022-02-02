@@ -62,3 +62,8 @@ body {
 .card p {
   font-family: open-sans, sans-serif;
 }
+
+article {
+  background-color: #fff;
+  padding: 30px;
+}
