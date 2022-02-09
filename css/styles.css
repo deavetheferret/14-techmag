@@ -65,6 +65,10 @@ article h1 {
   margin: 0 0 20px;
 }
 
+.card p {
+  margin: 21px 0 17px 0;
+}
+
 .card p,
 article p {
   font-family: open-sans, sans-serif;
