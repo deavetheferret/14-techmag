@@ -109,3 +109,13 @@ img {
 figcaption {
   padding: 6px 10px;
 }
+
+.button {
+  padding: 5px 15px 5px 15px;
+  background: grey;
+  font-family: 'montserrat';
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
