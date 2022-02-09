@@ -76,7 +76,8 @@ article p {
 
 article {
   background-color: #fff;
-  padding: 30px;
+  padding: 30px 30px 28px;
+  margin: 0 0 20px 0;
 }
 
 .post-info {
