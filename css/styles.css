@@ -99,6 +99,7 @@ figure {
   font-family: open-sans, sans-serif;
   font-size: 12px;
   font-weight: 700;
+  box-shadow: 0 0 10px #0000003b;
 }
 
 img {
