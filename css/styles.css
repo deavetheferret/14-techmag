@@ -123,3 +123,15 @@ figcaption {
 article p:last-of-type {
   margin: 15px 0 18px;
 }
+
+/* for footer */
+
+footer {
+  color: #fff;
+  border: solid 2px #2afca6;
+  box-shadow: 0 0 10px #2afca630;
+  text-align: center;
+  font-family: 'open-sans';
+  font-size: 10px;
+  padding: 6px 10px;
+}
