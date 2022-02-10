@@ -78,7 +78,7 @@ article p {
 article {
   background-color: #fff;
   padding: 30px 30px 34px;
-  margin: 0 0 20px 0;
+  margin: 0 0 19px 0;
 }
 
 .post-info {
@@ -96,11 +96,15 @@ article {
 
 figure {
   width: 100%;
-  margin: 0 0 32px 0;
+  margin: 0 0 34px;
   font-family: open-sans, sans-serif;
   font-size: 12px;
   font-weight: 700;
   box-shadow: 0 0 10px #0000003b;
+}
+
+.article figure {
+  margin: 0 0 31px;
 }
 
 img {
@@ -121,8 +125,8 @@ figcaption {
   text-decoration: none;
 }
 
-article p:last-of-type {
-  margin: 15px 0 18px;
+main article:last-of-type p:last-of-type {
+  margin: 10px 0 19px;
 }
 
 /* for footer */
