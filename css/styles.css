@@ -4,6 +4,14 @@
   font-family: open-sans, sans-serif; 400/400it/700/700it
 */
 
+:root {
+  --font-family-main: font-family: montserrat, sans-serif;
+  --font-family-secondary: open-sans, sans-serif;
+  --color-main: #fff;
+  --color-secondary: #000;
+  --color-sepcial: #2afca6;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -12,13 +20,13 @@ body {
   max-width: 320px;
   margin: auto;
   padding: 20px;
-  background: #000;
+  background: var(--color-secondary);
 }
 
 /* for header */
 
 .site-header {
-  border: solid 2px #fff;
+  border: solid 2px var(--color-main);
   background-image: url("../img/code-screen-background.jpg");
   box-shadow: inset 0 0 50px 100px #000000b3;
   padding: 23px 15px 35px 30px;
@@ -26,22 +34,22 @@ body {
 }
 
 .site-header h1 {
-  font-family: montserrat, sans-serif;
-  color: #fff;
+  font-family: var(--font-family-main);
+  color: var(--color-main);
   font-weight: 800;
   margin: 27px 0 19px;
   font-size: 26px;
 }
 
 .site-header span {
-  font-family: montserrat, sans-serif;
+  font-family: var(--font-family-main);
   font-weight: 100;
   font-style: italic;
-  color: #2afca6;
+  color: var(--color-sepcial);
 }
 
 .site-header p {
-  font-family: open-sans, sans-serif;
+  font-family: var(--font-family-secondary);
   color: #c6c6c5;
 }
 
@@ -52,7 +60,7 @@ main {
 }
 
 .card {
-  background: #2afca6;
+  background: var(--color-sepcial);
   color: #0b583e;
   padding: 30px 30px 28px;
   margin: 0 0 20px 0;
@@ -61,7 +69,7 @@ main {
 .card h2,
 article h1,
 article h2 {
-  font-family: montserrat, sans-serif;
+  font-family: var(--font-family-main);
   font-size: 16px;
   margin: 0 0 20px;
 }
@@ -72,11 +80,11 @@ article h2 {
 
 .card p,
 article p {
-  font-family: open-sans, sans-serif;
+  font-family: var(--font-family-secondary);
 }
 
 article {
-  background-color: #fff;
+  background-color: var(--color-main);
   padding: 30px 30px 34px;
   margin: 0 0 19px 0;
 }
@@ -87,17 +95,17 @@ article {
 }
 
 .post-date {
-  color: #000;
+  color: var(--color-secondary);
 }
 
 .post-author {
-  color: #2afca6;
+  color: var(--color-sepcial);
 }
 
 figure {
   width: 100%;
   margin: 0 0 34px;
-  font-family: open-sans, sans-serif;
+  font-family: var(--font-family-secondary);
   font-size: 12px;
   font-weight: 700;
   box-shadow: 0 0 10px #0000003b;
@@ -118,10 +126,10 @@ figcaption {
 .button {
   padding: 5px 15px 5px 15px;
   background: grey;
-  font-family: 'montserrat';
+  font-family: var(--font-family-main);
   font-size: 10px;
   text-align: center;
-  color: #fff;
+  color: var(--color-main);
   text-decoration: none;
 }
 
@@ -132,8 +140,8 @@ main article:last-of-type p:last-of-type {
 /* for footer */
 
 footer {
-  color: #fff;
-  border: solid 2px #2afca6;
+  color: var(--color-main);
+  border: solid 2px var(--color-sepcial);
   box-shadow: 0 0 10px #2afca630;
   text-align: center;
   font-family: 'open-sans';
