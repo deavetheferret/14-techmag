@@ -9,7 +9,7 @@
   --font-family-secondary: open-sans, sans-serif;
   --color-main: #fff;
   --color-secondary: #000;
-  --color-sepcial: #2afca6;
+  --color-special: #2afca6;
 }
 
 html {
@@ -45,7 +45,7 @@ body {
   font-family: var(--font-family-main);
   font-weight: 100;
   font-style: italic;
-  color: var(--color-sepcial);
+  color: var(--color-special);
 }
 
 .site-header p {
@@ -60,7 +60,7 @@ main {
 }
 
 .card {
-  background: var(--color-sepcial);
+  background: var(--color-special);
   color: #0b583e;
   padding: 30px 30px 28px;
   margin: 0 0 20px 0;
@@ -99,7 +99,7 @@ article {
 }
 
 .post-author {
-  color: var(--color-sepcial);
+  color: var(--color-special);
 }
 
 figure {
